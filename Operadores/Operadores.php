@@ -30,3 +30,34 @@ $x-- = x-=1
 #Nos casos acima, a ordem dos operadores: "X++ e ++X" importa.
 #++X = pre incremento
 #X++ = pos incremento
+
+
+#Operadores de comparação
+#retornam sempre true ou false
+
+2 == 3                 #false
+2 == 2                 #true
+2 == "2"               #true  (comverte os tipos)
+2 === "2"              #false (compara os tipos)
+
+2 != 3                 #true
+2 != 2                 #false
+2 != "2"               #false  (comverte os tipos)
+2 !== "2"              #true (compara os tipos: os tipos são diferentes)
+
+#os operadores com 3 simbolos "===" e "!==" comparam
+#os valores e os tipos
+
+>           #maior
+<           #menor
+>=          #maior ou igual
+<=          #menor ou igual
+
+
+#Operador spaceship
+
+1 <=> 1                 # (1 == 1) -> 0
+2 <=> 1                 # (3 > 2 ) -> 1
+1 <=> 2                 # (1 < 2 ) -> -1
+
+#spaceship compara se um valor é maior, menor ou igual ao outro
