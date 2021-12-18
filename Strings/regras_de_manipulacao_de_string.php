@@ -57,3 +57,9 @@ como delimitadores da string"
 
 
 $Especial_char = "\u{A9}" #\u interpreta o codigo hexadecimal de caracteres não presentes no teclado
+
+#Quebra de string
+
+$string = "Esta frase tem 24 letras";
+
+$x = $string[0]; #$x = E, = ao primeiro caractere
