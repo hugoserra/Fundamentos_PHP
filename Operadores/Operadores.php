@@ -61,3 +61,11 @@ $x-- = x-=1
 1 <=> 2                 # (1 < 2 ) -> -1
 
 #spaceship compara se um valor é maior, menor ou igual ao outro
+
+
+#Operadores Logicos
+
+&&      #Operador "And"
+||      #Operador "Or"
+ !      #Operador "Not"
+xor     #Operador "Exclusive Or"
