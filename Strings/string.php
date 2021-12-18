@@ -15,6 +15,8 @@ $x = "Quero";
 $y = "Tomar";
 $z = "Cafe";
 
+#Aspas duplas e aspas simples
+
 $string = "$x $y $z"; #Aspas duplas interpretam os valores das variaveis (Parser)
 
 #string = "Quero Tomar Cafe"
@@ -22,6 +24,8 @@ $string = "$x $y $z"; #Aspas duplas interpretam os valores das variaveis (Parser
 $string = '$s $y $z'; #Aspas simples consideram tudo como texto
 
 #string = '$s $y $z'
+
+#Para textos, com parser e sem parser
 
 $texto = <<<LABEL
     Este metodo é util para armazenar textos muito
@@ -41,3 +45,15 @@ $texto = <<<'LABEL'
     Exemplo: $s, perceba que a cor da variavel é a mesma do texto
     no editor de texto, pois não esta sendo interpretada
 LABEL;
+
+
+#Caracteres de escape
+
+$string = "Se dentro de um texto
+for nescesario a utilização de aspas, (simples ou duplas)
+podemos utilizar \"assim\" com uma contrabarra antes
+para que as aspas sejam interpretadas como texto, e não
+como delimitadores da string"
+
+
+$Especial_char = "\u{A9}" #\u interpreta o codigo hexadecimal de caracteres não presentes no teclado
