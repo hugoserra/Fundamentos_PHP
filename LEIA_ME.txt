@@ -1,0 +1,7 @@
+Os códigos deste repositório têm o intuito de aprendizado e consulta futura,
+nenhum dos códigos tem garantia de execução. Os comentários contêm as explicações
+para os códigos próximos. Este repositório foi criado segundo minhas necessidades
+de aprendizado em PHP. Por exemplo, não há explicações sobre funções e laços de repetição,
+nem estruturas condicionais.
+Pois a sintaxe e lógica destas funcionalidades são exatamente iguais as da linguagem C,
+que também tem seus fundamentos expressos em um dos repositórios deste Git Hub.
