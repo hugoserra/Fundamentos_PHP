@@ -95,13 +95,30 @@ echo $homem->nome_completo(); //Hugo Carvalho
 
 class Humano2
 {
-    private $nome;
-    private $sobrenome;
+    public $nome;
+    public $sobrenome;
 
     function __construct($_nome, $_sobrenome)
     {
       $this->nome = $_nome;
       $this->sobrenome = $_sobrenome;
+    }//__construct
+
+    public function nome_completo()
+    {
+      return "$this->nome $this->sobrenome";
+    }//nome_completo
+}//Class_Humano2
+
+class Humano3
+{
+    //esta classe tem o mesmo funcionamento da classe Humano2.
+    //a função contruct abaixo promove as variaveis nome e sobrenome
+    //para propriedades, por possuirem um especificador de acesso junto (public)
+    function __construct(public $nome, public $sobrenome)
+    {
+      $this->nome = $nome;
+      $this->sobrenome = $sobrenome;
     }//__construct
 
     public function nome_completo()
