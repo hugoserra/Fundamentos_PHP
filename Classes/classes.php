@@ -141,3 +141,32 @@ echo $mulher->nome_completo(); //"Leia Guimarão"
 $homem = new Humano();
 //ou
 $homem = new Humano;
+
+
+//////////////////propriedades privadas como bom costume//////////////
+//definir tipo para variavel privada utilizando classes e seus metodos
+
+class Humano4
+{
+  private $idade;
+
+  function set_idade($int_idade)
+  {
+      if(is_numeric($int_idade))
+      {
+        $this->idade = $int_idade;
+      }//if
+
+  }//function set_idade
+
+  function get_idade()
+  {
+
+      return $this->idade;
+
+  }//function get_idade
+
+}//class_Humano4
+
+//em Humano4, a propriedade idade só pode assumir valores numericos
+//por meio da função set_idade
