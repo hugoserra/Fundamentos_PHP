@@ -47,3 +47,15 @@ $h = 'joao';
 unset($h); //desaloca da memoria
 
 $h = null; //limpa a memoria, mas sem desalocar
+
+
+//////////////////////////////////////////////
+//verificação de tipos
+
+// is_array()
+// is_bool()
+// is_integer()
+// is_string()
+// is_float()
+// is_numeric()
+// is_object()
