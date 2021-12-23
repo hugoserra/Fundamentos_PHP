@@ -145,6 +145,7 @@ $homem = new Humano;
 
 //////////////////propriedades privadas como bom costume//////////////
 //definir tipo para variavel privada utilizando classes e seus metodos
+//Mecanismos de getters e setters
 
 class Humano4
 {
