@@ -20,8 +20,14 @@ $string = str_replace('a','x',$string); #estx frxse tem 24 letrxs
 #Verifica qual e a posicao do caractere dentro da string
 $int = strpos(%string,'a'); # = 3
 
-#Verifica se uma sequencia é contida dentro de outra, retorno em booleano
+#Verifica se uma sequencia Ã© contida dentro de outra, retorno em booleano
 $bool = str_contains($string,'letras'); #  = true
+
+#Divide a string em um array
+$string = explode(" ",$string);# ["esta","frase","tem","24","letras"]
+
+#Transforma um array em string
+$string = implode(" ",$array);#faz o contrario de explode()
 
 
 //https://www.php.net/manual/pt_BR/ref.strings.php
